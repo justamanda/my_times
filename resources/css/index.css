@@ -1,0 +1,107 @@
+
+header {
+  display:flex;
+  align-items:center;
+  position:fixed;
+  z-index:1;
+  width:100%;
+  height:80px;
+  border-bottom: 1px solid black;
+  background-color:white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  flex-grow:1;
+  padding-left:30px;
+  border: 1px solid black;
+}
+
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo h1{
+  color:MediumAquamarine;
+  background-color:white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav{
+  display:flex;
+}
+
+.nav li{
+  display:inline-block;
+  padding: 20px 10px;
+}
+
+.main{
+  display:flex;
+  border: 2px solid black;
+  padding-top:80px;
+  z-index:0;
+  position:relative;
+}
+
+.col-large{
+  display:flex;
+  width:630px;
+  border: 1px solid black;
+}
+
+.col-medium{
+  display:flex;
+  width:300px;
+  border: 1px solid black;
+}
+
+.col-small{
+  display:flex;
+  width:240px;
+  border: 1px solid black;
+}
+
+.main-story{
+  border: 1px solid black;
+}
+
+.story-image{
+  border: 1px solid black;
+}
+
+.story-image-headline{
+  border: 1px solid black;
+}
+
+.narrative{
+  border: 1px solid black;
+}
+
+.stories{
+  border: 1px solid black;
+}
+
+.story{
+  border: 1px solid black;
+}
+
+.content{
+  border: 1px solid black;
+}
+
+.narrative{
+  border: 1px solid black;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
